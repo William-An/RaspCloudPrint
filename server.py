@@ -45,7 +45,7 @@ def printer(filename):
 	with open('static/log','a+') as logfile:
 		logfile.write("[*] Start printjob "+filename+" "+str(datetime.datetime.now())+"\n")
 		try:
-			subprocess.call(['lp',filename],timeout=10)
+			subprocess.call(['lp',filename],timeout=30)
 			subprocess.call(["rm",filename],timeout=10)
 			logfile.write("[+] Finish printjob "+filename+" "+str(datetime.datetime.now())+"\n")
 			raise web.seeother('/upload')
