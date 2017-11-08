@@ -42,6 +42,9 @@ Raspberry Pi Cloud Printer is a cloud print platform based on [web.py](http://we
 1. Add support for more format; currently(v1.0), RPCP only support pdf
 2. Add more options when printing; allow users to configure their printing; currently(v1.0), RPCP can only print by default
 3. Add an 1602A LCD screen to show current print job attributes
+1. Dokku/Docker installation
+1. IOT!
+1. CUPS native support (directly connect to printer)
 
 # Error
 If there are bugs, please post them on [issues section](https://github.com/William-An/RaspCloudPrint/issues) or contact through my email: [China_Aisa@live.com](mailto:China_Aisa@live.com)
