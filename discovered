@@ -1,0 +1,26 @@
++  wlan0 IPv4 raspberryprinter [b8:27:eb:21:9c:76]          Workstation          local
++  wlan0 IPv4 william's workshop [WILLIAMWORKSHOP] (VNC Server) VNC Remote Access    local
++  wlan0 IPv4 HP LaserJet Professional P1106 @ raspberryprinter Internet Printer     local
++  wlan0 IPv4 HP LaserJet Professional P1106 @ raspberryprinter _ipps._tcp           local
++  wlan0 IPv4 HP LaserJet Professional P1106 @ raspberryprinter UNIX Printer         local
+=  wlan0 IPv4 raspberryprinter [b8:27:eb:21:9c:76]          Workstation          local
+   hostname = [raspberryprinter.local]
+   address = [192.168.0.12]
+   port = [9]
+   txt = []
+=  wlan0 IPv4 HP LaserJet Professional P1106 @ raspberryprinter Internet Printer     local
+   hostname = [raspberryprinter.local]
+   address = [192.168.0.12]
+   port = [631]
+   txt = ["printer-type=0x900E" "printer-state=3" "Color=T" "TLS=1.2" "UUID=4de9b4f6-8d9f-3969-49f1-ed4eef04afe6" "URF=DM3" "pdl=application/octet-stream,application/pdf,application/postscript,image/jpeg,image/png,image/pwg-raster,image/urf" "product=(HP LaserJet Professional p1106 Printer)" "priority=0" "note=" "adminurl=https://raspberryprinter.local:631/printers/HP_LaserJet_Professional_P1106" "ty=Unknown" "rp=printers/HP_LaserJet_Professional_P1106" "qtotal=1" "txtvers=1"]
+=  wlan0 IPv4 HP LaserJet Professional P1106 @ raspberryprinter _ipps._tcp           local
+   hostname = [raspberryprinter.local]
+   address = [192.168.0.12]
+   port = [631]
+   txt = ["printer-type=0x900E" "printer-state=3" "Color=T" "TLS=1.2" "UUID=4de9b4f6-8d9f-3969-49f1-ed4eef04afe6" "URF=DM3" "pdl=application/octet-stream,application/pdf,application/postscript,image/jpeg,image/png,image/pwg-raster,image/urf" "product=(HP LaserJet Professional p1106 Printer)" "priority=0" "note=" "adminurl=https://raspberryprinter.local:631/printers/HP_LaserJet_Professional_P1106" "ty=Unknown" "rp=printers/HP_LaserJet_Professional_P1106" "qtotal=1" "txtvers=1"]
+=  wlan0 IPv4 HP LaserJet Professional P1106 @ raspberryprinter UNIX Printer         local
+   hostname = [raspberryprinter.local]
+   address = [192.168.0.12]
+   port = [0]
+   txt = []
+-  wlan0 IPv4 william's workshop [WILLIAMWORKSHOP] (VNC Server) VNC Remote Access    local
